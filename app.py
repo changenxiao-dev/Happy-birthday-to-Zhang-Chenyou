@@ -27,7 +27,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-birthday_html = """
+# 注意：這裡必須是 r"""（raw string），否則 JavaScript 裡的 \n 會被 Python 提前轉成換行而壞掉
+birthday_html = r"""
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
