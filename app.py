@@ -539,7 +539,7 @@ birthday_html = r"""
       margin-top: 2px;
     }
 
-    /* ---------- 隱藏彩蛋 ---------- */
+    /* ---------- ---------- */
     .secret-box {
       background: linear-gradient(135deg, #fff5d9 0%, #ffe9f1 100%);
       border: 1.5px solid #f1d69a;
